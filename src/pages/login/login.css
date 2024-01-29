@@ -8,9 +8,9 @@
   position: relative;
 }
 .login .backImg img {
-  width: 100%;
-  height: 50vh;
-  object-fit: cover;
+  width: 1250px;
+  margin-top: 5%;
+  
 }
 .login .text {
   position: absolute;
@@ -30,4 +30,8 @@
 .login a {
   margin-top: 20px;
   text-decoration: none;
+}
+
+.form button{
+  background-color: rgb(204, 6, 6);
 }

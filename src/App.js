@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { Footer } from "./components/footer/Footer"
+import {  Footer } from "./components/footer/Footer"
 import { Header } from "./components/header/Header"
 import { Account } from "./pages/account/Account"
 import { Home } from "./pages/home/Home"
@@ -22,7 +22,7 @@ const App = () => {
             <Route exact path='/regsiter' component={Regsiter} />
             <Route exact path='/account' component={Account} />
           </Switch>
-          <Footer />
+          < Footer/>
         </Router>
       )}
       {!isLoggIn && <Login />}
