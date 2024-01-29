@@ -1,6 +1,6 @@
 import React from "react"
 import "./login.css"
-import back from "../../assets/images/my-account.jpg"
+import back from "../../assets/images/my-account.png"
 import { useDispatch } from "react-redux"
 import { authActions } from "../../store/authSlice"
 
@@ -16,13 +16,13 @@ export const Login = () => {
         <div className='container'>
           <div className='backImg'>
             <img src={back} alt='' />
-            <div className='text'>
+            {/* <div className='text'>
               <h3>Login</h3>
               <h1>My ACcount</h1>
-            </div>
+            </div> */}
           </div>
 
-          <form onSubmit={handleSubmit}>
+          <form className="form" onSubmit={handleSubmit}>
             <span>Username or Email address</span>
             <input type='text' required />
             <span>Password * </span>

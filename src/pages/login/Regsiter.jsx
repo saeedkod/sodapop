@@ -1,6 +1,6 @@
 import React from "react"
 import "./login.css"
-import back from "../../assets/images/my-account.jpg"
+import back from "../../assets/images/my-account.png"
 import { Link } from "react-router-dom"
 
 export const Regsiter = () => {

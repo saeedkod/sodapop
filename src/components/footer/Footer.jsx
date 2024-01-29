@@ -1,49 +1,44 @@
 
-
-import React from 'react';
+import React from "react";
 import "./Footer.css";
-import { FaFacebookF, FaTwitter, FaInstagram, FaPinterest, FaBehance } from 'react-icons/fa';
 
-export const Footer = () => {
-  return (
-    <div className='footer bg-dark section-p' id = "footer">
-        <div className='container'>
-            <div className='section-title'>
-                <h3 className='text-brown'>Follow <span className='text-white'>Me</span></h3>
+ export const Footer = () => {
+    return (
+        <footer className="footer section__padding bg__dark">
+            <div className="container">
+                <div className="footer__content grid text__light text__center">
+                    <div className="footer__content--item">
+                        <a href = "#" className="footer__navlink">sodapop </a>
+                        <p className="para__text">This is our soda shop</p>
+                    </div>
+
+                    <div className="footer__content--item">
+                        <a href = "mailto:someone@gmail.com" >saeedrazman7953@gmail.com</a>
+                        <div>+44 986 689 009</div>
+                    </div>
+
+                    <div className="footer__content--item">
+                        <h3 className="footer__title">Projects</h3>
+                        <ul className="footer__links">
+                            <li><a href = "#">About</a></li>
+                            <li><a href = "#">Services</a></li>
+                            <li><a href = "#">Career</a></li>
+                        </ul>
+                    </div>
+
+                   
+
+                    <div className="footer__content--item">
+                        <h3 className="footer__title">Social LInks</h3>
+                        <ul className="footer__links">
+                            <li><a href = "#">Facebook</a></li>
+                            <li><a href = "#">Twitter</a></li>
+                            <li><a href = "#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div className='footer-content'>
-                <ul className='footer-social-links flex flex-c'>
-                    <li>
-                        <a href = "/" className='text-white'>
-                            <FaFacebookF />
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "/" className='text-white'>
-                            <FaTwitter />
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "/" className='text-white'>
-                            <FaInstagram />
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "/" className='text-white'>
-                            <FaPinterest />
-                        </a>
-                    </li>
-                    <li>
-                        <a href = "/" className='text-white'>
-                            <FaBehance />
-                        </a>
-                    </li>
-                </ul>
-                <p className='text-center fs-14 text-white op-07 fw-3 ls-1 reserved-text'>saeedrazman</p>
-            </div>
-        </div>
-    </div>
-  )
+        </footer>
+    )
 }
-
 
